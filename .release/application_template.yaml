@@ -52,9 +52,6 @@ workflows:
     tasks:
     - services.postgres
     - services.redis
-  - step: migrate
-    tasks:
-    - jobs.migrate
   - step: amundsen
     tasks:
     - charts.amundsen
