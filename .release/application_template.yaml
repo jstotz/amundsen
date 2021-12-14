@@ -1,9 +1,9 @@
 ##comment
 ---
-app: amemsenennn
+app: amundsen
 auto_deploy: true
 context: release-handsup-us-east-1
-domain: amemsenennn.releaseapp.gethandsup.com
+domain: amundsen.releaseapp.gethandsup.com
 mode: development
 repo_name: dustyspace/amundsen
 environment_templates:
