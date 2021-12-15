@@ -5,7 +5,7 @@ defaults:
 - key: CUSTOMER_NAME
   value:
 - key: OTHER_VAR
-  value: savage
+  value: tester
 - key: POSTGRES_HOST_AUTH_METHOD
   value: trust
 - key: TEST_ENV
