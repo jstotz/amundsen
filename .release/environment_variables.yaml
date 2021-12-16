@@ -4,6 +4,8 @@ gitops:
 defaults:
 - key: CUSTOMER_NAME
   value:
+- key: NEW_ENV_VAR
+  value: are you going to make it?
 - key: OTHER_VAR
   value: where are you?
 - key: ONE_MORE_ENV
