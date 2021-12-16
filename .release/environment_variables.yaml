@@ -9,7 +9,7 @@ defaults:
 - key: OTHER_VAR
   value: where are you?
 - key: ONE_MORE_ENV
-  value: from fresh-branch branch
+  value: from new-new-branch branch
 - key: POSTGRES_HOST_AUTH_METHOD
   value: trust
 - key: TEST_ENV
