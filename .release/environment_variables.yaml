@@ -1,4 +1,6 @@
 ---
+gitops:
+  immutable_keys: ['CUSTOMER_NAME']
 defaults:
 - key: CUSTOMER_NAME
   value: main-branch-customers
