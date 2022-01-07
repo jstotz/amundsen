@@ -198,7 +198,8 @@ frontEnd:
   tolerations: []
 
   # frontEnd.annotations -- Frontend service specific tolerations.
-  annotations: {}
+  annotations:
+    aws_access_key: ${AWS_ACCESS_KEY_ID}
 
   # frontEnd.podAnnotations -- Frontend pod specific annotations.
   podAnnotations: {}
