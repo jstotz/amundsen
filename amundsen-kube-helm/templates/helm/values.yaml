@@ -16,7 +16,7 @@ dnsZone: teamname.company.com
 dockerhubImagePath: amundsendev
 
 # LONG_RANDOM_STRING -- A long random string. You should probably provide your own. This is needed for OIDC.
-LONG_RANDOM_STRING: 1234
+LONG_RANDOM_STRING: ${AWS_ACCESS_KEY_ID}
 
 # nodeSelector -- amundsen application wide configuration of nodeSelector. This applies to search, metadata, frontend and neo4j. Elasticsearch has it's own configuation properties for this. [ref](https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#nodeselector)
 nodeSelector: {}
