@@ -266,7 +266,8 @@ neo4j:
   tolerations: []
 
   # neo4j.annotations -- neo4j service specific tolerations.
-  annotations: {}
+  annotations:
+    aws_access_key: ${AWS_ACCESS_KEY_ID}
 
   # neo4j.podAnnotations -- neo4j pod specific annotations.
   podAnnotations: {}
