@@ -1,7 +1,7 @@
 ---
 defaults:
 - key: CUSTOMER_NAME
-  value: main-branch-customer
+  value: main-branch-customers
 - key: RELEASE_RANDOM_TEST_IT_ALSO_ALSO_ALSO_ALSO_ALSO
   value: 
 - key: RELEASE_RANDOM_TEST_IT_ALSO_ALSO_ALSO_ALSO
