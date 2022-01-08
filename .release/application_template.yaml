@@ -12,7 +12,7 @@ environment_templates:
 resources:
   cpu:
     limits: 1000m
-    requests: 112m
+    requests: 113m
   memory:
     limits: 1Gi
     requests: 100Mi
