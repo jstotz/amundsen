@@ -22,5 +22,7 @@ defaults:
   value: true
 - key: ANOTHER_ENV_VAR
   value: this is the value
+- key: YES
+  value: yes
 services: {}
 
