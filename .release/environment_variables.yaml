@@ -20,5 +20,7 @@ defaults:
   value: trust
 - key: TEST_ENV
   value: true
+- key: ANOTHER_ENV_VAR
+  value: yes
 services: {}
 
