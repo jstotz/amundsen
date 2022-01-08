@@ -23,7 +23,7 @@ defaults:
 - key: ANOTHER_ENV_VAR
   value: this is the value
 - key: TEST_SECRET
-  value: this is a secret
+  value: this is a secret value
   secret: true
 services: {}
 
