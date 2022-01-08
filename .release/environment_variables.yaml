@@ -3,7 +3,7 @@ gitops:
   immutable_keys: ['CUSTOMER_NAME']
 defaults:
 - key: CUSTOMER_NAME
-  value: main-branch-customer-xxx-yyy-zzz-000-111-222-333-444
+  value: main-branch-customer-xxx-yyy-zzz-000-111-222-333-444-555
 - key: RELEASE_RANDOM_TEST_IT_ALSO_ALSO_ALSO_ALSO_ALSO
   value: 
 - key: RELEASE_RANDOM_TEST_IT_ALSO_ALSO_ALSO_ALSO
