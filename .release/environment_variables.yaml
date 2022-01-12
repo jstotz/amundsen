@@ -5,7 +5,7 @@ defaults:
 - key: CUSTOMER_NAME
   value:
 - key: OTHER_VAR
-  value: where are you?
+  value: where 
 - key: ONE_MORE_ENV
   value: from fresh-branch branch updated
 - key: POSTGRES_HOST_AUTH_METHOD
