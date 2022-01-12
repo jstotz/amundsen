@@ -13,6 +13,6 @@ defaults:
 - key: TEST_ENV
   value: true
 - key: TESTER
-  value: ok
+  value: not ok
 services: {}
 
