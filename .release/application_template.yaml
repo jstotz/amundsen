@@ -24,6 +24,7 @@ services:
   image: postgres:11
 - name: redis
   image: redis
+  command: ['sh', '-c', "echo 'failing now...' && sleep 5 && exit 1"]
 - name: backend
   image: dustyspace/amundsen/nginx
   has_repo: true
@@ -47,9 +48,9 @@ jobs:
 workflows:
 - name: setup
   parallelize:
-  - step: migrate
+  - step: redis
     tasks:
-    - jobs.migrate
+    - services.redis
     halt_on_error: true
   - step: data
     tasks:
