@@ -51,6 +51,7 @@ workflows:
   - step: redis
     tasks:
     - services.redis
+    wait_for_finish: false
     halt_on_error: true
   - step: data
     tasks:
