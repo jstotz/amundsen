@@ -198,8 +198,7 @@ frontEnd:
   tolerations: []
 
   # frontEnd.annotations -- Frontend service specific tolerations.
-  annotations:
-    tmp-nginx-image-url: $NGINX_REGISTRY_IMAGE_URL
+  annotations: {}
 
   # frontEnd.podAnnotations -- Frontend pod specific annotations.
   podAnnotations: {}
