@@ -1,3 +1,3 @@
 FROM nginx
 
-EXPOSE 1242
+EXPOSE 1243
