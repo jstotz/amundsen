@@ -37,6 +37,10 @@ charts:
 - name: ingress
   directory: amundsen-kube-helm/templates/release-ingress
   values: values.yaml
+- name: remote-ingress
+  repo_url: https://github.com/releasehub-com/helm-ingress.git
+  directory: amundsen-kube-helm/templates/release-ingress
+  values: values.yaml
 builds:
 - name: nginx
   dockerfile: Dockerfile.release
@@ -65,6 +69,7 @@ workflows:
     tasks:
     - charts.amundsen
     - charts.ingress
+    - charts.remote-ingress
 - name: patch
   parallelize:
   - step: amundsen-stepz
