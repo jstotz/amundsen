@@ -27,6 +27,9 @@ services:
 - name: backend
   image: dustyspace/amundsen/nginx
   has_repo: true
+- name: vote
+  image: dustyspace/amundsen/vote
+  has_repo: true
 charts:
 - name: amundsen
   directory: amundsen-kube-helm/templates/helm
@@ -37,6 +40,9 @@ charts:
 builds:
 - name: nginx
   dockerfile: Dockerfile.release
+- namme: vote
+  repo_url: https://github.com/dustyspace/example-vote-1.git
+  context: vote
 jobs:
 - name: migrate
   command:
