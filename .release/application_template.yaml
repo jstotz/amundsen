@@ -3,9 +3,9 @@
 app: amundsen-release-variables
 auto_deploy: true
 context: release-handsup-us-east-1
-domain: amemsenennn.releaseapp.gethandsup.com
+domain: amundsen-jstotz.releaseapp.gethandsup.com
 mode: development
-repo_name: dustyspace/amundsen
+repo_name: jstotz/amundsen
 environment_templates:
 - name: ephemeral
 - name: permanent
