@@ -40,9 +40,6 @@ charts:
 builds:
 - name: nginx
   dockerfile: Dockerfile.release
-- namme: vote
-  repo_url: https://github.com/dustyspace/example-vote-1.git
-  context: vote
 jobs:
 - name: migrate
   command:
